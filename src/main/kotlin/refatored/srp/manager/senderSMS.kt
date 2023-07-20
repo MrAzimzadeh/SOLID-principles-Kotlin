@@ -1,6 +1,6 @@
 package refatored.srp.manager
 
-class senderSMS {
+class SenderSMS {
     fun sendSMS(message : String) {
         // genereated report
     }

@@ -3,7 +3,7 @@ package refatored.srp.factory
 import refatored.srp.manager.*
 
 class NotificationFacade(
-    private  val smsSennder : senderSMS,
+    private  val smsSennder : SenderSMS,
     private  val saveManager :  SaveManager ,
     private  val report: GeneralReportManager
 ) {
