@@ -18,11 +18,14 @@ fun main() {
     notification.saveUUID(5);
 
 
+
+    //solid
     var storeService = StoreService()
     storeService.Store(ExternalManager())
 
-    var delivery = DeliveryServices()
 
+    //o -> task
+    var delivery = DeliveryServices()
     delivery.Delivery(CarManager())
 
 }
